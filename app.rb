@@ -9,7 +9,7 @@ class App < Sinatra::Base
   #    erb :create_puppy
   #  end
 
-   get '/new' do
+   post '/new' do
        "Hello World"
      end
 
